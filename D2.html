@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My little web for Dota 2 intro ^.^</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	
+	
+  </head>
+  <body background="https://cdn.wallpapersafari.com/57/74/2JNuwi.png">
+	<div class="container">	
+      <nav class="navbar navbar-default">
+	  
+        <div class="container-fluid">
+		  <!-- 頁首 -->
+          <div class="navbar-header">
+		    <a class="navbar-brand" href="#">DOTA 2</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">導覽按鈕</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>            
+          </div>
+		  
+		  <!-- 導覽列的項目 -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">首頁</a></li>
+              <li><a href="https://store.steampowered.com/app/570/Dota_2/">DOWNLOAD</a></li>	  
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">HeroPedia <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="http://www.dota2.com/heroes/?l=tchinese">Heroes</a></li>
+                  <li><a href="http://www.dota2.com/items/">Items</a></li>  
+                </ul>
+              </li>
+            </ul>          
+          </div>
+        </div>
+      </nav>
+
+      <!-- 輪播 -->
+      <div id="myCarousel" class="carousel slide">
+	    <!-- 輪播指示 -->
+	    <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+		
+		<!-- 輪播內容 -->
+	    <div class="carousel-inner">
+		  <!-- 第一個輪播項目 (包含圖片、標題與介紹) --> 
+          <div class="item active">
+  		    <img src="hoodwink.jpg">
+            <div class="carousel-caption">            
+              <a href="http://www.dota2.com/mistwoods" class="alert-link"><strong>新英雄：HoodWink! </strong></a>
+              <p class="lead"> 在外域深處，在Nanarak沙漠之外和Krimwohl的燃煤大火以北，
+			 一片片險惡的林地等待著-在那兒發現了許多珍貴的Aghanim碎片，一個狡猾的新英雄狂奔。</p>
+            </div>
+          </div>
+		  
+		  <!-- 第二個輪播項目 (包含圖片、標題與介紹) --> 
+          <div class="item">
+            <img src="diretide.jpg">
+            <div class="carousel-caption">
+              <a href="https://www.dota2.com/diretide/" class="alert-link"><strong>DireTide  </strong></a>
+              <p class="lead">瘋狂月亮的碎片在整個土地上散發出微弱的光芒。一隻休眠的野獸在他的洞穴中攪動，一種強大的飢餓克服了奧秘的捲須，使他在冬眠時束縛了自己。 </p>
+            </div>
+          </div>
+		  
+          <!-- 第三個輪播項目 (包含圖片、標題與介紹) --> 
+		  <div class="item">
+            <img src="pro.jpg">
+            <div class="carousel-caption">
+              <h1>Incoming Major! </h1>
+              <p class="lead">2021年职业巡回赛</p>
+            </div>
+          </div>
+        </div>
+		
+		<!-- 輪播控制 -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>      
+	  	
+	  <!-- 警報效果 -->
+	  <hr>
+	  <div class="alert alert-success alert-dismissible" role="alert">
+	    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+        <a href="https://blog.dota2.com/2020/12/the-2021-dota-pro-circuit/" class="alert-link"><strong>2021年职业巡回赛  </strong></a>  在關於COVID-19疫苗的利好消息開始新的一年的同時，我們希望與您分享我們對2021年Dota Pro巡迴賽賽季的計劃。 
+      </div>
+	  
+      <div class="alert alert-info alert-dismissible" role="alert">
+	    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+        <a href="https://blog.dota2.com/2020/12/dota-plus-update-winter-2020/" class="alert-link"><strong>Dota 2 Plus 的更新！！  </strong></a>  Dota Plus會員現在可以將英雄升級到30級的全新Grandmaster等級。獲得Grandmaster頭銜的玩家還可以使用該英雄的新聊天輪語音線。作為特級大師完成的所有英雄挑戰也將授予碎片而不是英雄XP作為獎勵。
+      </div>
+	  
+      <section>
+	    <!-- 第一列 -->
+	    <div class="row text-center">
+          <div class="col-md-4">
+            <img class="img-circle" src="histo.jpg" width="160" height="160">
+            <h3>歷史小知識</h3>
+            <p>Dota 2 的緣起</p>
+            <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Dota_2#:~:text=Dota%202%20was%20first%20made,Windows%20version%20of%20the%20game." role="button">詳細資料&raquo;</a></p>
+          </div>
+		  
+          <div class="col-md-4">
+            <img class="img-circle" src="V.jpg" width="160" height="160">
+            <h3>開發者</h3>
+            <p>V 社————DOTA 2 的代表商</p>
+            <p><a class="btn btn-default" href="https://zh.wikipedia.org/wiki/Valve" role="button">詳細資料&raquo;</a></p>
+          </div>
+		  
+          <div class="col-md-4">
+            <img class="img-circle" src="tra.png" width="160" height="160">
+            <h3>遊戲宣傳</h3>
+            <p>官方的Dota 2 宣傳小影片</p>
+            <p><a class="btn btn-default" href="https://www.youtube.com/watch?v=aHxbKMhcv5k&ab_channel=IGN" role="button">詳細資料&raquo;</a></p>
+          </div>
+		</div>
+      
+        
+	 
+      <!-- 頁尾 -->
+	  <hr>
+	  <footer>        
+        <p>&copy;109年度 107153025 基專 李壯威</p>
+		<p class="text-right"><a href="#">Back to top</a></p>
+      </footer>
+    </div>
+	
+	<EMBED src="https://www.youtube.com/watch?v=j0Ftjz2fw7w&ab_channel=dota2"autostart="true" loop="true" width="80"height="20">
+
+
+  </body>	
+</html>  
+    
